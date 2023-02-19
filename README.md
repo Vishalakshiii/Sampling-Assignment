@@ -25,4 +25,5 @@ The table below shows the accuracies of each sampling technique on five differen
 Based on these results, it can be concluded that Cluster Sampling performs the best on all five models. Simple random sampling performs the worst on all five models. The other sampling techniques have varying performance depending on the model. The model which gives the best accuracy for all 5 samples is Decision Tree.
 
 ##conclusion
+
 This study recommends using Cluster Sampling for this dataset since it consistently showed the best performance across all machine learning models used. However, other sampling techniques may also be worth considering for different datasets or models.
