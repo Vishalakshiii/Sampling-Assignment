@@ -6,7 +6,17 @@ The goal of this study is to investigate the effectiveness of different sampling
 
 ##Sampling Techniques
 
-The following five sampling techniques were employed in this study: Random OverSampling,Random Undersamping,SMOTE,ADASYN and Near Miss. 
+The following five sampling techniques were employed in this study: Random OverSampling,Random Undersamping,SMOTE,ADASYN and Near Miss. In the context of this study, the researchers utilized five different sampling techniques to address potential imbalances in their dataset. The first technique, Random OverSampling, involves randomly duplicating minority class samples in order to balance the class distribution. This technique can be useful when there is a significant imbalance between the number of samples in the majority and minority classes.
+
+The second technique, Random Undersampling, involves randomly removing samples from the majority class in order to balance the class distribution. This technique can be useful when there is a very large number of samples in the majority class and a smaller number of samples in the minority class.
+
+The third technique, SMOTE (Synthetic Minority Over-sampling Technique), involves generating synthetic samples in the minority class using interpolation. SMOTE is designed to create new samples that are similar to existing minority class samples, but with some variations. This technique can be useful when there is a small number of minority class samples and a large number of majority class samples.
+
+The fourth technique, ADASYN (Adaptive Synthetic Sampling), is similar to SMOTE but adapts the sampling strategy to the local distribution of the data. ADASYN generates more synthetic samples in regions where the density of the minority class is low, and fewer synthetic samples in regions where the density of the minority class is high.
+
+
+The fifth technique, Near Miss, is an undersampling technique that selects samples from the majority class that are closest to the minority class samples. This technique is designed to preserve the information in the dataset while reducing the number of majority class samples.
+By utilizing these different sampling techniques, the researchers aimed to improve the performance of their machine learning models and mitigate any potential biases introduced by imbalanced data.
 
 
 ##Discussion
