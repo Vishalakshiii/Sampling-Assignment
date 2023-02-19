@@ -1,12 +1,15 @@
 ##Comparison of Sampling Techniques for Five Machine Learning Models
 
 ##Introduction
+
 The goal of this study is to investigate the effectiveness of different sampling techniques for constructing a balanced dataset for machine learning models. The original dataset was imbalanced, and therefore, random over-sampling and under-sampling methods were employed to balance it. Five different sampling techniques were then applied to this balanced dataset, and their resulting accuracies were compared using five different machine learning models.
 
 ##Sampling Techniques
+
 The following five sampling techniques were employed in this study: Simple Random Sampling, Stratified Sampling, Systematic Sampling, Cluster Sampling, and Convenience Sampling. Simple Random Sampling selects data points randomly from the dataset without any criteria. Stratified Sampling creates subgroups (strata) based on specific characteristics, and samples are selected from each stratum in proportion to the overall population. Systematic Sampling selects every nth element from the population, with n being a fixed interval. Cluster Sampling divides the population into clusters, randomly selects a sample of clusters, and includes all members of the selected clusters in the sample. Convenience Sampling is a non-probability sampling technique where the sample is selected based on its convenience to the researcher.
 
 ##Discussion
+
 The accuracies of each sampling technique were recorded for five different machine learning models, including Decision Tree, Support Vector Machines (SVM), Logistic Regression, K-Nearest Neighbor (KNN), and Naive Bayes. All models used a balanced version of the original dataset that was created using random over-sampling and under-sampling techniques.
 The results show that Cluster Sampling produced the best performance on all five machine learning models. Simple Random Sampling showed the worst performance on all five models. The other sampling techniques varied in their performance depending on the model used. The Decision Tree model consistently showed the best accuracy for all five sampling techniques.
 
