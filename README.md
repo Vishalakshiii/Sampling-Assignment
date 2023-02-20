@@ -30,16 +30,17 @@ The results show that  near Miss sample produced the best performance on all fiv
 ##Comparison Table
 
 The table below shows the accuracies of each sampling technique on five different machine learning models. The dataset used for all models is a balanced version of the original unbalanced dataset using random over-sampling and under-sampling techniques.
-+----------+-----------+-----------+-----------+-----------+-----------+
-|          | Sampling1 | Sampling2 | Sampling3 | Sampling4 | Sampling5 |
-+----------+-----------+-----------+-----------+-----------+-----------+
-|  Model1  |   0.9637  |   0.9637  |   0.9896  |   0.9896  |   0.9896  |
-|  Model2  |   0.7098  |   0.7306  |   0.7513  |   0.7306  |   0.7617  |
-|  Model3  |   0.9793  |   0.9585  |   0.9845  |   0.9741  |   0.9896  |
-|  Model4  |   0.9845  |   0.9793  |   0.9845  |   0.9845  |   0.9896  |
-|  Model5  |   0.9845  |   0.9637  |   0.9845  |   0.9845  |   0.9896  |
-+----------+-----------+-----------+-----------+-----------+-----------+
-
+  
++----------+-----------+-----------+-----------+-----------+-----------+     
+|          | Sampling1 | Sampling2 | Sampling3 | Sampling4 | Sampling5 |    
++----------+-----------+-----------+-----------+-----------+-----------+    
+|  Model1  |   0.9637  |   0.9637  |   0.9896  |   0.9896  |   0.9896  |   
+|  Model2  |   0.7098  |   0.7306  |   0.7513  |   0.7306  |   0.7617  |    
+|  Model3  |   0.9793  |   0.9585  |   0.9845  |   0.9741  |   0.9896  |    
+|  Model4  |   0.9845  |   0.9793  |   0.9845  |   0.9845  |   0.9896  |    
+|  Model5  |   0.9845  |   0.9637  |   0.9845  |   0.9845  |   0.9896  |     
++----------+-----------+-----------+-----------+-----------+-----------+    
+  
 Based on these results, it can be concluded that Near Miss performs the best on all five models. Random OverSampling performs the worst on all five models. The other sampling techniques have varying performance depending on the model. The model which gives the best accuracy for all 5 samples is LGBC.
 
 ##Conclusion
