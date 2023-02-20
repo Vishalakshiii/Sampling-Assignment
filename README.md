@@ -6,7 +6,9 @@ The goal of this study is to investigate the effectiveness of different sampling
 
 ##Sampling Techniques
 
-The following five sampling techniques were employed in this study: Random OverSampling,Random Undersamping,SMOTE,ADASYN and Near Miss. In the context of this study, the researchers utilized five different sampling techniques to address potential imbalances in their dataset. The first technique, Random OverSampling, involves randomly duplicating minority class samples in order to balance the class distribution. This technique can be useful when there is a significant imbalance between the number of samples in the majority and minority classes.
+The following five sampling techniques were employed in this study: Random OverSampling,Random Undersamping,SMOTE,ADASYN and Near Miss. In the context of this study, the researchers utilized five different sampling techniques to address potential imbalances in their dataset. 
+
+The first technique, Random OverSampling, involves randomly duplicating minority class samples in order to balance the class distribution. This technique can be useful when there is a significant imbalance between the number of samples in the majority and minority classes.
 
 The second technique, Random Undersampling, involves randomly removing samples from the majority class in order to balance the class distribution. This technique can be useful when there is a very large number of samples in the majority class and a smaller number of samples in the minority class.
 
@@ -22,8 +24,8 @@ By utilizing these different sampling techniques, the researchers aimed to impro
 ##Discussion
 
 The accuracies of each sampling technique were recorded for five different machine learning models, including Decision Tree, Light Gradient Boost Machines (LGBM), Random Forest Classifier, XG Boost Classifier, and Extra Trees Classifier.
-All models used a balanced version of the original dataset that was created using random over-sampling and under-sampling techniques.
-The results show that  produced the best performance on all five machine learning models. Decision Tree showed the worst performance on all five models. The other sampling techniques varied in their performance depending on the model used. The Extra tree CLassifier model consistently showed the best accuracy for all five sampling techniques.
+All models used a balanced version of the original dataset that was created using above mentioned techniques.
+The results show that  near Miss sample produced the best performance on all five machine learning models.Random Undersampling gives worst performance on all five models. The other sampling techniques varied in their performance depending on the model used.
 
 ##Comparison Table
 
@@ -42,4 +44,4 @@ Based on these results, it can be concluded that Near Miss performs the best on 
 
 ##conclusion
 
-This study recommends using Cluster Sampling for this dataset since it consistently showed the best performance across all machine learning models used. However, other sampling techniques may also be worth considering for different datasets or models.
+This study recommends using Near Miss model for this dataset since it consistently showed the best performance across all machine learning models used. However, other sampling techniques may also be worth considering for different datasets or models.
